@@ -8,9 +8,11 @@ faith_creation_clean.001 = {
 	}
 
 	immediate = {
-		if {
+		if = {
 			limit = {
-				has_doctrine = tenet_bck_empty_1
+				faith = {
+					has_doctrine = tenet_bck_empty_1
+				}
 			}
 			faith = {
 				remove_doctrine = tenet_bck_empty_1
